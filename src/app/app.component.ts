@@ -9,14 +9,14 @@ import { Capacitor } from '@capacitor/core';
 import { FirebaseMessaging } from '@capacitor-firebase/messaging';
 import { initializeApp } from 'firebase/app';  // ✅ Add this
 
-// ✅ Add this Firebase config (from your Firebase console)
 const firebaseConfig = {
-  apiKey: 'YOUR_API_KEY',
-  authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
-  projectId: 'YOUR_PROJECT_ID',
-  storageBucket: 'YOUR_PROJECT_ID.appspot.com',
-  messagingSenderId: 'YOUR_SENDER_ID',
-  appId: 'YOUR_APP_ID'
+  apiKey: "AIzaSyDI-Y8SUlPpj0495_preN5h4P4zZgaL1qU",
+  authDomain: "dlist-app.firebaseapp.com",
+  projectId: "dlist-app",
+  storageBucket: "dlist-app.firebasestorage.app",
+  messagingSenderId: "702713496290",
+  appId: "1:702713496290:web:e94eb6ad12a0c07cec14bb",
+  measurementId: "G-555MDXLZSL"
 };
 
 // ✅ Initialize Firebase
